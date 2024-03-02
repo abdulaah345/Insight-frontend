@@ -1,9 +1,10 @@
-import { Box, Grid } from "@mui/material";
+import { Box, Grid, Slider } from "@mui/material";
 import { AttributesPicker } from "../../../components/attributes-picker/AttributePicker";
 import Attributes from "../../../utils/attributes";
 import Graph from "../../../components/graph/Graph";
 import Comment from "../../../components/graph-comment/Comment";
 import RightBar from "../../../components/right-bar/RightBar";
+import Sidebar from "../../../components/side-bar/Sidebar";
 
 const VisualizePage = () => {
   return (
@@ -17,7 +18,7 @@ const VisualizePage = () => {
             item
             xs={2}
           >
-            sidebar
+            <Sidebar/>
           </Grid>
           <Grid
             item
