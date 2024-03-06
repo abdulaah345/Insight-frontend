@@ -16,10 +16,10 @@ const App = () => {
   return (
     <div>
       <AppHeader />
-      {/* <DataSourcePage /> */}
-      {/* <Home /> */}
+      { <DataSourcePage /> }
+      {/* {<Home /> } */}
       {/* <VisualizePage /> */}
-      <Spreadsheet />
+      {/* <Spreadsheet /> */}
       {/* <UploadPage /> */}
     </div>
     // <div className="app-container">
